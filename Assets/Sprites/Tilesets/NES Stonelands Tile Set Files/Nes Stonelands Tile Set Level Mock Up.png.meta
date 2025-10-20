@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: edaa4a519205aff48907427afde1d61f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2041227841878784877
+    second: Nes Stonelands Tile Set Level Mock Up_0
+  - first:
+      213: 3704093616163883259
+    second: Nes Stonelands Tile Set Level Mock Up_1
+  - first:
+      213: -1070519055316336589
+    second: Nes Stonelands Tile Set Level Mock Up_2
+  - first:
+      213: 2149677400069713004
+    second: Nes Stonelands Tile Set Level Mock Up_3
+  - first:
+      213: 5275083720363024944
+    second: Nes Stonelands Tile Set Level Mock Up_4
+  - first:
+      213: -2757033465254485530
+    second: Nes Stonelands Tile Set Level Mock Up_5
+  - first:
+      213: -3059427249398054575
+    second: Nes Stonelands Tile Set Level Mock Up_6
+  - first:
+      213: 2952924160599374403
+    second: Nes Stonelands Tile Set Level Mock Up_7
+  - first:
+      213: -5426452477203795829
+    second: Nes Stonelands Tile Set Level Mock Up_8
+  - first:
+      213: -1526084718691551812
+    second: Nes Stonelands Tile Set Level Mock Up_9
+  - first:
+      213: 6793601298827585757
+    second: Nes Stonelands Tile Set Level Mock Up_10
+  - first:
+      213: -8336412863560881163
+    second: Nes Stonelands Tile Set Level Mock Up_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Nes Stonelands Tile Set Level Mock Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 303
+        width: 289
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3948d2bb71a1ca3e0800000000000000
+      internalID: -2041227841878784877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nes Stonelands Tile Set Level Mock Up_1
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 311
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf88d3ec485976330800000000000000
+      internalID: 3704093616163883259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nes Stonelands Tile Set Level Mock Up_2
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 311
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 330459e4790c421f0800000000000000
+      internalID: -1070519055316336589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nes Stonelands Tile Set Level Mock Up_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 47
+        width: 673
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c27d4b43035dd10800000000000000
+      internalID: 2149677400069713004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nes Stonelands Tile Set Level Mock Up_4
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 7
+        width: 278
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0322fa0f1bcd43940800000000000000
+      internalID: 5275083720363024944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nes Stonelands Tile Set Level Mock Up_5
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 40
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e164a5bbac0db9d0800000000000000
+      internalID: -2757033465254485530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nes Stonelands Tile Set Level Mock Up_6
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 40
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1518a7f402bba85d0800000000000000
+      internalID: -3059427249398054575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nes Stonelands Tile Set Level Mock Up_7
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 40
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34ab139f0e4eaf820800000000000000
+      internalID: 2952924160599374403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nes Stonelands Tile Set Level Mock Up_8
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 40
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80bab9f83e51b4b0800000000000000
+      internalID: -5426452477203795829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nes Stonelands Tile Set Level Mock Up_9
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 40
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb5fc3da80242dae0800000000000000
+      internalID: -1526084718691551812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nes Stonelands Tile Set Level Mock Up_10
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 40
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd820422368b74e50800000000000000
+      internalID: 6793601298827585757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nes Stonelands Tile Set Level Mock Up_11
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 40
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fbe4763bac1f4c80800000000000000
+      internalID: -8336412863560881163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Nes Stonelands Tile Set Level Mock Up_0: -2041227841878784877
+      Nes Stonelands Tile Set Level Mock Up_1: 3704093616163883259
+      Nes Stonelands Tile Set Level Mock Up_10: 6793601298827585757
+      Nes Stonelands Tile Set Level Mock Up_11: -8336412863560881163
+      Nes Stonelands Tile Set Level Mock Up_2: -1070519055316336589
+      Nes Stonelands Tile Set Level Mock Up_3: 2149677400069713004
+      Nes Stonelands Tile Set Level Mock Up_4: 5275083720363024944
+      Nes Stonelands Tile Set Level Mock Up_5: -2757033465254485530
+      Nes Stonelands Tile Set Level Mock Up_6: -3059427249398054575
+      Nes Stonelands Tile Set Level Mock Up_7: 2952924160599374403
+      Nes Stonelands Tile Set Level Mock Up_8: -5426452477203795829
+      Nes Stonelands Tile Set Level Mock Up_9: -1526084718691551812
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

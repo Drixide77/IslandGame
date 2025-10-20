@@ -6,8 +6,9 @@ namespace IslandGame.Testing
 {
     public class InputTest : MonoBehaviour, IClickable2D
     {
-        private SpriteRenderer _spriteRenderer;
+        [SerializeField] private bool exitOnInteract;
         
+        private SpriteRenderer _spriteRenderer;
         private AppControlService _appControlService;
 
         void Awake()
@@ -19,7 +20,7 @@ namespace IslandGame.Testing
         public void OnClicked()
         {
             _spriteRenderer.color = _spriteRenderer.color == Color.green ? Color.red : Color.green;
-            _appControlService.ExitApplication();
+            if (exitOnInteract) _appControlService.ExitApplication();
         }
     }
 }

@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace IslandGame.Services
 {
-    public class AppControlService: BaseService
+    public class AppControlService : BaseService
     {
         private readonly int targetFramerate = 60;
         

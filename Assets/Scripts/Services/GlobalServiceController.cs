@@ -3,19 +3,40 @@ using UnityServiceLocator;
 
 namespace IslandGame.Services
 {
-    public class GlobalServiceController: MonoBehaviour
+    [DefaultExecutionOrder(-1000)]
+    public class GlobalServiceController : MonoBehaviour
     {
+        // Singleton pattern
+        public static GlobalServiceController Instance { get; private set; }
+        
         [Header("Service References")]
         [SerializeField] private AppControlService appControlService;
+        [SerializeField] private TransitionService transitionService;
         
         private void Awake()
         {
-            RegisterServices();
+            if (Instance == null)
+            {
+                Instance = this;
+                Initialize();
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
         }
 
+        private void Initialize()
+        {
+            RegisterServices();
+        }
+        
         private void RegisterServices()
         {
-            ServiceLocator.Global.Register<AppControlService>(appControlService);
+            appControlService.Initialize();
+            ServiceLocator.Global.Register(appControlService);
+            transitionService.Initialize();
+            ServiceLocator.Global.Register(transitionService);
         }
     }
 }

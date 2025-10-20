@@ -1,32 +1,29 @@
-using System.Collections;
+﻿using System.Collections;
 using TMPro;
 using UnityEngine;
 
 namespace IslandGame.UI
 {
-    public class LoadingSceneController : MonoBehaviour
+    public class LoadingScreenAnimation : MonoBehaviour
     {
-        [Header("References")] [SerializeField]
-        private TMP_Text loadingLabel;
+        [Header("References")]
+        [SerializeField] private TMP_Text loadingLabel;
 
-        [SerializeField] private CanvasGroup canvasGroup;
-
-        [Header("Animation Settings")] [SerializeField]
-        private string loadingLabelPrefix = "Loading ";
-
+        [Header("Animation Settings")]
+        [SerializeField] private string loadingLabelPrefix = "Loading ";
         [SerializeField] private float animationInterval = 0.33f;
 
-        private Coroutine animationCoroutine;
+        private Coroutine _animationCoroutine;
 
         void OnEnable()
         {
-            animationCoroutine = StartCoroutine(AnimateLoadingLabelCoroutine());
+            _animationCoroutine = StartCoroutine(AnimateLoadingLabelCoroutine());
         }
 
         void OnDisable()
         {
-            if (animationCoroutine != null)
-                StopCoroutine(animationCoroutine);
+            if (_animationCoroutine != null)
+                StopCoroutine(_animationCoroutine);
         }
 
         private IEnumerator AnimateLoadingLabelCoroutine()
