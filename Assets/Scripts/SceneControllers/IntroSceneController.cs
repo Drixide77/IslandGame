@@ -23,6 +23,7 @@ namespace IslandGame.SceneControllers
 
         private IEnumerator LoadScenesWithTransition()
         {
+            // TODO: move all scene loading to service
             _transitionService.FadeOut();
             var currentScene = SceneManager.GetActiveScene();
             AsyncOperation loadingScene = SceneManager.LoadSceneAsync(mainMenuSceneName, LoadSceneMode.Additive);
